@@ -1,4 +1,4 @@
-/* --- Generelt oppsett --- */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -10,13 +10,13 @@ header, main, footer {
 }
 
 header {
-  background-color: #0077cc;
-  color: white;
+  background-color: #eb5e28;
+  color: #252422;
   transform: skew(-5deg);
 }
 
 main {
-  background-color: #f0f0f0;
+  background-color: #ccc5b9;
 }
 
 footer {
@@ -24,7 +24,7 @@ footer {
   color: white;
 }
 
-/* --- Bilde med transform og transition --- */
+
 .hover-image {
   width: 200px;
   transition: transform 0.4s ease;
@@ -34,7 +34,7 @@ footer {
   transform: scale(1.2);
 }
 
-/* --- Animasjon med keyframes --- */
+
 @keyframes fadeInMove {
   0% {
     opacity: 0;
@@ -55,10 +55,10 @@ footer {
   animation: fadeInMove 2s ease-in-out;
 }
 
-/* --- Knapp med transition og transform --- */
+
 .fancy-button {
-  background-color: #0077cc;
-  color: white;
+  background-color: #eb5e28;
+  color: #252422;
   padding: 15px 30px;
   border: none;
   border-radius: 8px;
@@ -68,13 +68,13 @@ footer {
 }
 
 .fancy-button:hover {
-  background-color: #005fa3;
+  background-color: #252422;
   transform: scale(1.1);
 }
 
-/* --- Lenke med transition --- */
+
 a {
-  color: #0077cc;
+  color: #252422;
   text-decoration: none;
   transition: color 0.3s ease;
 }
