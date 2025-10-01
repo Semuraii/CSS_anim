@@ -11,7 +11,7 @@ header, main, footer {
 
 header {
   background-color: #eb5e28;
-  color: #252422;
+  color: #ccc5b9;
   transform: skew(-5deg);
 }
 
@@ -57,8 +57,8 @@ footer {
 
 
 .fancy-button {
-  background-color: #eb5e28;
-  color: #252422;
+  background-color: #403d39;
+  color: #ccc5b9;
   padding: 15px 30px;
   border: none;
   border-radius: 8px;
@@ -68,7 +68,7 @@ footer {
 }
 
 .fancy-button:hover {
-  background-color: #252422;
+  background-color: #eb5e28;
   transform: scale(1.1);
 }
 
