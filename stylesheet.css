@@ -1,0 +1,84 @@
+/* --- Generelt oppsett --- */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header, main, footer {
+  padding: 40px;
+  text-align: center;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+  transform: skew(-5deg);
+}
+
+main {
+  background-color: #f0f0f0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+/* --- Bilde med transform og transition --- */
+.hover-image {
+  width: 200px;
+  transition: transform 0.4s ease;
+}
+
+.hover-image:hover {
+  transform: scale(1.2);
+}
+
+/* --- Animasjon med keyframes --- */
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-text {
+  font-size: 1.5em;
+  animation: fadeInMove 2s ease-in-out;
+}
+
+/* --- Knapp med transition og transform --- */
+.fancy-button {
+  background-color: #0077cc;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.fancy-button:hover {
+  background-color: #005fa3;
+  transform: scale(1.1);
+}
+
+/* --- Lenke med transition --- */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff5500;
+}
